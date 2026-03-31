@@ -1,0 +1,21 @@
+{
+  "name": "web-omw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "web-omw": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fs-extra": "^11.3.2",
+    "inquirer": "^12.11.1",
+    "path": "^0.12.7"
+  }
+}
