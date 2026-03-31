@@ -28,6 +28,13 @@ async function run() {
       choices: [
         { name: "Basic (minimal setup)", value: "basic" },
         { name: "Landing (modern layout)", value: "landing" },
+        { name: "Portfolio", value: "portfolio" },
+        { name: "Blog", value: "blog" },
+        { name: "Ecommerce", value: "ecommerce" },
+        { name: "SaaS", value: "saas" },
+        { name: "Agency", value: "agency" },
+        { name: "Dashboard", value: "dashboard" },
+        { name: "Product", value: "product" }
       ],
     },
   ]);

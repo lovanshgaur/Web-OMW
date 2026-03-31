@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Template</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="dashboard-layout">
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <h2>DASH.</h2>
+            </div>
+            <ul class="sidebar-nav">
+                <li><a href="#" class="active"><span class="nav-icon">📊</span> Dashboard</a></li>
+                <li><a href="#"><span class="nav-icon">📈</span> Analytics</a></li>
+                <li><a href="#"><span class="nav-icon">📁</span> Projects</a></li>
+                <li><a href="#"><span class="nav-icon">👥</span> Users</a></li>
+                <li><a href="#"><span class="nav-icon">⚙️</span> Settings</a></li>
+            </ul>
+        </aside>
+
+        <div class="main-content">
+            <header class="topbar">
+                <div class="topbar-title">
+                    <h1>Dashboard</h1>
+                </div>
+                <div class="topbar-actions">
+                    <button class="action-btn">🔍</button>
+                    <button class="action-btn">🔔</button>
+                    <div class="profile-pic">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80" alt="Profile">
+                    </div>
+                </div>
+            </header>
+
+            <main class="content-wrapper">
+                <section class="stats-cards">
+                    <div class="card stat-card">
+                        <div class="stat-details">
+                            <p>Total Users</p>
+                            <h3>14,592</h3>
+                            <span class="trend positive">↑ 12%</span>
+                        </div>
+                        <div class="stat-icon">👥</div>
+                    </div>
+                    <div class="card stat-card">
+                        <div class="stat-details">
+                            <p>Total Revenue</p>
+                            <h3>$52,430</h3>
+                            <span class="trend positive">↑ 8%</span>
+                        </div>
+                        <div class="stat-icon">💰</div>
+                    </div>
+                    <div class="card stat-card">
+                        <div class="stat-details">
+                            <p>Active Sessions</p>
+                            <h3>1,245</h3>
+                            <span class="trend negative">↓ 3%</span>
+                        </div>
+                        <div class="stat-icon">📱</div>
+                    </div>
+                    <div class="card stat-card">
+                        <div class="stat-details">
+                            <p>Conversion Rate</p>
+                            <h3>4.8%</h3>
+                            <span class="trend positive">↑ 1%</span>
+                        </div>
+                        <div class="stat-icon">📈</div>
+                    </div>
+                </section>
+
+                <section class="data-section">
+                    <div class="card table-card">
+                        <div class="card-header">
+                            <h2>Recent Transactions</h2>
+                            <button class="btn btn-outline">View All</button>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Order ID</th>
+                                        <th>Customer</th>
+                                        <th>Date</th>
+                                        <th>Amount</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>#ORD-001</td>
+                                        <td>John Doe</td>
+                                        <td>Oct 24, 2026</td>
+                                        <td>$120.00</td>
+                                        <td><span class="status completed">Completed</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>#ORD-002</td>
+                                        <td>Jane Smith</td>
+                                        <td>Oct 24, 2026</td>
+                                        <td>$340.50</td>
+                                        <td><span class="status pending">Pending</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>#ORD-003</td>
+                                        <td>Robert Johnson</td>
+                                        <td>Oct 23, 2026</td>
+                                        <td>$85.00</td>
+                                        <td><span class="status completed">Completed</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>#ORD-004</td>
+                                        <td>Emily Davis</td>
+                                        <td>Oct 23, 2026</td>
+                                        <td>$210.00</td>
+                                        <td><span class="status failed">Failed</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>#ORD-005</td>
+                                        <td>Michael Brown</td>
+                                        <td>Oct 22, 2026</td>
+                                        <td>$65.00</td>
+                                        <td><span class="status completed">Completed</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <footer class="dashboard-footer">
+                <p>&copy; 2026 LovanshGaur. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
